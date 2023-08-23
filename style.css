@@ -99,6 +99,7 @@
     font-size: 35px;
     font-weight: 600;
     transform: translateX(-470px);
+    text-shadow: 8px 5px 8px #000000c6;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     animation: title 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
 }
@@ -469,7 +470,7 @@
     z-index: -1;
     object-fit: cover;
 }
-h1 {
+.certificates__title {
     margin-right: 30px;
     font-size: 50px;
     text-shadow: 8px 5px 8px #000000bd;
